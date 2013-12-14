@@ -5,6 +5,7 @@ package org.fife.ui.rsyntaxtextarea;
 //import java.awt.Shape;
 
 //import javax.swing.text.CompositeView;
+
 import javax.swing.text.Element;
 //import javax.swing.text.View;
 
@@ -14,7 +15,7 @@ import javax.swing.text.Element;
  * be faster with large wrapped documents.  Heavily based off of
  * <code>BoxView</code>, but streamlined to only care about the y-axis, and
  * takes code folding into account.<p>
- *
+ * <p/>
  * This class is not currently used.
  *
  * @author Robert Futrell
@@ -28,13 +29,13 @@ public class WrappedSyntaxView2 {//extends CompositeView {
 //	private boolean sizeRequirementsValid;
 
 
-	public WrappedSyntaxView2(Element root) {
-		//super(root);
+    public WrappedSyntaxView2(Element root) {
+        //super(root);
 //		tempRect = new Rectangle();
 //		cachedOffsets = new int[0];
 //		cachedSpans = new int[0];
 //		sizeRequirementsValid = false;
-	}
+    }
 
 
 //	protected void childAllocation(int index, Rectangle alloc) {

@@ -20,14 +20,14 @@ import org.fife.ui.rsyntaxtextarea.Token;
 public class LispFoldParser extends CurlyFoldParser {
 
 
-	public boolean isLeftCurly(Token t) {
-		return t.isSingleChar(Token.SEPARATOR, '(');
-	}
+    public boolean isLeftCurly(Token t) {
+        return t.isSingleChar(Token.SEPARATOR, '(');
+    }
 
 
-	public boolean isRightCurly(Token t) {
-		return t.isSingleChar(Token.SEPARATOR, ')');
-	}
+    public boolean isRightCurly(Token t) {
+        return t.isSingleChar(Token.SEPARATOR, ')');
+    }
 
 
 }

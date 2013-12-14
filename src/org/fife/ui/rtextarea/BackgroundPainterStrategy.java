@@ -9,8 +9,7 @@
  */
 package org.fife.ui.rtextarea;
 
-import java.awt.Graphics;
-import java.awt.Rectangle;
+import java.awt.*;
 
 
 /**
@@ -31,14 +30,14 @@ import java.awt.Rectangle;
 public interface BackgroundPainterStrategy {
 
 
-	/**
-	 * Paints the background.
-	 *
-	 * @param g The graphics context.
-	 * @param bounds The bounds of the object whose backgrouns we're
-	 *        painting.
-	 */
-	public void paint(Graphics g, Rectangle bounds);
+    /**
+     * Paints the background.
+     *
+     * @param g      The graphics context.
+     * @param bounds The bounds of the object whose backgrouns we're
+     *               painting.
+     */
+    public void paint(Graphics g, Rectangle bounds);
 
 
 }

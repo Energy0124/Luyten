@@ -1,10 +1,11 @@
 package com.modcrafting.luyten;
 
-import java.awt.Panel;
 import org.fife.ui.rsyntaxtextarea.RSyntaxTextArea;
 import org.fife.ui.rsyntaxtextarea.SyntaxConstants;
 import org.fife.ui.rsyntaxtextarea.Theme;
 import org.fife.ui.rtextarea.RTextScrollPane;
+
+import java.awt.*;
 
 public class OpenFile implements SyntaxConstants{
 	RTextScrollPane scrollPane;

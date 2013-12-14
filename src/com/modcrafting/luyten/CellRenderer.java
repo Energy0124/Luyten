@@ -1,13 +1,9 @@
 package com.modcrafting.luyten;
 
-import java.awt.Component;
-import java.awt.Toolkit;
-
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JTree;
+import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeCellRenderer;
+import java.awt.*;
 
 public class CellRenderer extends DefaultTreeCellRenderer{
 	private static final long serialVersionUID = -5691181006363313993L;
